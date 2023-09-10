@@ -1,0 +1,153 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&display=swap');
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Red Hat Display", sans-serif;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#E0E8FF;
+    background-image:url(./assets/pattern-background-mobile.svg);
+    background-repeat:no-repeat;
+    background-size:contain;
+}
+
+.card{
+    width:327px;
+    height:567px;
+    flex-shrink:0;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.15);
+}
+
+.illustration{
+    width:327px;
+    height:160px;
+    flex-shrink:0;
+    border-radius: 20px 20px 0px 0px;
+    background: #382AE1;
+}
+
+.content{
+    padding:32px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.title{
+    width:263px;
+    color: #1F2E55;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.description{
+    width:263px;
+    color: #717FA6;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px; 
+    margin-top:16px;
+}
+
+.planDiv{
+    width:100%;
+    padding:17px;
+    border-radius: 11px;
+    background-color : #F7F9FF;
+    display:flex;
+    align-items: centeრ;
+    justify-content:space-between;
+    margin-top:24px;
+}
+
+.annual{
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+.cost-container{
+    font-size:14px;
+    display:flex;
+    flex-direction:column;
+    gap:3px;
+}
+
+.plan{
+    color:#1F2E55;
+    font-weight:900;
+}
+
+.payment{
+    color: #717FA6;
+    font-weight:500;
+}
+
+.change{
+    color: #382AE1;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+    transition:0.4s;
+}
+
+.change:hover{
+    color: #766CF1;
+    text-decoration:none;
+}
+
+.proceed{
+    width: 279px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 11px;
+    background-color: #382AE1;
+    box-shadow: 0px 20px 20px 0px rgba(56, 42, 225, 0.19);
+    margin-top :24px;
+    border:none;
+    color:white;
+    cursor:pointer;
+    transition:0.4s;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.proceed:hover{
+    background-color:#766CF1;
+    
+}
+
+.cancel{
+    color: #717FA6;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top:24px;
+    transition:0.4s;
+    cursor:pointer;
+}
+
+.cancel:hover{
+    color: #1F2E55;
+    
+}
